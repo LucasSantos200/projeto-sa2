@@ -1,38 +1,33 @@
-.App {
+body{
+  background-color: rgb(231, 231, 231);
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header {
+  background-color: rgb(147, 67, 218);
   color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.pagina {
+  padding: 10px;
+  margin: 2px;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.esqueci{
+margin: 7.5px;
+}
+
+.esqueci2{
+margin: 2px;
+}
+
+.box{
+    align-content: center;
+    width: 240px;
+    height: 250px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
 }
