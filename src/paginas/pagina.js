@@ -59,7 +59,7 @@ function App() {
           Insira as Informações
         </div>
         <div>
-          <input className='esqueci2' type='text' value={nome} onChange={(e) => setNome(e.target.value)} placeholder='Digite seu Nome'/>
+          <input className='esqueci2' type='text' value={nome} onChange={(e) => setNome(e.target.value)} placeholder='Digite seu Nsssome'/>
           <input className='esqueci2' type='number' value={telefone} onChange={(e) => setTelefone(e.target.value)} placeholder='Digite seu Telefone'/>
           <input className='esqueci2' type='text' value={cep} inputMode='numeric' pattern='[0-9]*' maxLength={8}  onChange={(e) => setCep(e.target.value.replace(/\D/g, ''))} 
           /*essa parte do setCep faz com que o "-" seja apagado e deixe só os numeros*/ placeholder='Digite seu CEP'/>
